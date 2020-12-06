@@ -1,4 +1,4 @@
 <nav>
-  <a href="/">Inicio</a>
-  <a href="/about.html">Acerca De</a>
+  <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>Inicio</a>
+  <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>Acerca De</a>
 </nav>
